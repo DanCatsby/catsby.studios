@@ -2,13 +2,36 @@ body {
     display: block;
     align-content: center;
     align-items: center;
-    background-color: rgb(47, 47, 47);
+    background-color: #2B3035;
     font-size: large;
     color:white;
 }
+.btnalt{
+    padding: 10px;
+    text-align: start;
+    width: 5.6rem;
+    color: rgba(255, 255, 255, 0.7);
+    background: transparent;
+    transition: all 0.5s ease;
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+}
+.btnalt:hover{
+    background-color: #757575;
+    box-shadow: 0px 10px 40px rgba(255, 255, 255, 0.25);
+    transform: translateY(-5px);
+}
+.btnalt:active{
+
+    background-color: #757575;
+    font-size: 90%;
+    width: 5.45rem;
+    box-shadow: 0px 10px 40px rgba(255, 255, 255, 0.25);
+    transform: translateY(3px);
+}
 .main {
     color:white;
-    background-color: rgb(47, 47, 47);
+    background-color: #2B3035;
 }
 .albums {
     color:white;
