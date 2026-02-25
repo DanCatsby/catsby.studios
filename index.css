@@ -4,7 +4,7 @@ body {
     align-items: center;
     background-color: #2B3035;
     font-size: large;
-    color:white;
+    color: rgb(255, 255, 255);
 }
 .btnalt{
     padding: 10px;
@@ -30,16 +30,16 @@ body {
     transform: translateY(3px);
 }
 .main {
-    color:white;
+    color: rgb(255, 255, 255);
     background-color: #2B3035;
 }
 .albums {
-    color:white;
+    color: rgb(255, 255, 255);
     padding-top: 30px;
-
+    background-color: #2B3035;
 }
 .song-name {
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 1px;
     text-align: center;
 }
@@ -47,28 +47,42 @@ body {
     align-items: center;
 }
 .card {
-    color: white;
-    background: rgba(0, 0, 0, 0.8);
-    border-color: black;
+    color: antiquewhite;
     transition: all 0.7s ease;
 }
 .card-title {
+    color: antiquewhite;
     margin: 1px;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.card-text {
+    color: rgb(255, 255, 255);
 }
 .card-title-2 {
+    color: rgb(255, 255, 255);
     margin-top: -10px;
     margin-bottom: 10px;
 }
 .card-body {
-    border-color: black;
-    background: rgba(0, 0, 0, 0.8);
-    border-radius: 0px 0px 6px 6px;
+    background-color: #2B3035;
+    border-radius: 6px;
 }
 .card:hover{
     box-shadow: 0px 0px 100px rgba(255, 255, 255, 0.5);
-    font-size: 102%;
+
+    text-shadow: #FFFFFF 0px 0 20px;
     transform: translateY(-5px);
+}
+.audio {
+    transition: all 0.2s ease;
+    border-radius: 100px;
+}
+.audio:hover {
+    transform: translateY(-4px);
+    box-shadow: #ffffff35 0px 0 30px;
+}
+.audio:active {
+    transform: translateY(1px);
+    box-shadow: #ffffff35 0px 0 10px;
 }
 .div{
     padding-left: 50px;
