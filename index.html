@@ -4,8 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap demo</title>
-    <link rel="icon" href="/catsby.studios/img/catsby-star.png" type="image/x-icon">
-    <link href="index.css" rel="stylesheet" />
+    <link href="/catsby.studios/index.css" rel="stylesheet" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,16 +12,11 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
-    <div class="main">
+  <body style="background-color: #2B3035;">
+    <div class="main" style="background-color: #2B3035;">
       <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-          <a 
-            class="navbar-brand"
-            style="padding-left: 24px;"
-            href="index.html">catsby.studios | 
-            <img class="d-inline-block align-text-top" src="/catsby.studios/img/catsby-star.png" width="30" alt="logo">
-          </a>
+          <a class="navbar-brand" href="#">catsby.studios</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -37,7 +31,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="index.html"
                   >музыка</a
                 >
               </li>
@@ -86,48 +80,118 @@
           </div>
         </div>
       </nav>
-      <ul class="albums d-flex align-content-end flex-wrap gap-2" style="padding-right: 30px;" >
-        <div class="card m-1" style="width: 18rem">
-          <img src="img/catsby-star.png" class="card-img-top" alt="..." />
-          <div class="card-body" style="color: white;">
-            <h5 class="card-title">невыпущенные треки</h5>
-            <p class="card-title-3">
-                  невыпущенные треки, которые еще не попали в альбомы
-            </p>
-            <a href="main/unreleased.html" class="btn btn-outline-light w-100">перейти</a>
+        <div class="div">
+          <a href="/catsby.studios/index.html">
+            <button class="btn2 p-1">
+              <h5 class="txt m-1">←      назад</h5>
+            </button>
+          </a>  
+        </div>
+        <ul class="tracks d-flex align-content-end flex-wrap" style="margin-right: 30px;">
+          <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                  <h1 style="color: white;" class="card-title">untitled</h5>
+                  <h4 class="card-title-2">dancatsby</h5>
+                  <p class="card-text">
+                      вышел в тг 15 февраля ↓
+                  </p>
+                  <audio controls class="audio w-100">
+                    <source src="/catsby.studios/unrealeased/untitled.mp3" type="audio/wav">
+                  </audio>
+                </div>
           </div>
-        </div>
-        <div class="card m-1" style="width: 18rem; color: white;">
-          <img src="img/inside-my-cat.jpg" class="card-img-top" alt="..." />
-          <div class="card-body" style="color: white;">
-            <h5 class="card-title">inside my cat</h5>
-            <p class="card-title-3">
-                  первый альбом, вышел на всех площадках 08.06.25
-            </p>
-            <a href="main/inside_my_cat.html" class="btn btn-outline-light w-100">перейти</a>
+          <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                  <h1 class="card-title" style="color: white;">depth</h5>
+                  <h4 class="card-title-2" style="color: white;">dancatsby</h5>
+                  <p class="card-text" style="color: white;">
+                      вышел в тг 22 января 2025 ↓
+                  </p>
+                  <audio controls class="audio w-100">
+                    <source src="/catsby.studios/unrealeased/depth.mp3" type="audio/wav">
+                  </audio>
+                </div>
           </div>
-        </div>
-        <div class="card m-1" style="width: 18rem">
-          <img src="img/tense.png" class="card-img-top" alt="..." />
-          <div class="card-body" style="color: white;">
-            <h5 class="card-title">tense</h5>
-            <p class="card-text">
-                  второй альбом, вышел на всех площадках 01.01.26
-            </p>
-            <a href="main/tense.html" class="btn btn-outline-light w-100">перейти</a>
+          <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                  <h1 class="card-title" style="color: white;">project 20</h5>
+                  <h4 class="card-title-2" style="color: white;">dancatsby</h5>
+                  <p class="card-text" style="color: white;">
+                      вышел в тг 26 октября 2025 ↓
+                  </p>
+                  <audio controls class="audio w-100">
+                    <source src="/catsby.studios/unrealeased/Project_20.mp3" type="audio/mpeg">
+                    братуха у тебя браузер не поддерживает аудиофайлы короче да
+                  </audio>
+                  <audio controls class="audio w-100">
+                    <source src="/catsby.studios/unrealeased/Project_20_2.mp3" type="audio/mpeg">
+                    братуха у тебя браузер не поддерживает аудиофайлы короче да
+                  </audio>
+                </div>
           </div>
-        </div>
-        <div class="card m-1" style="width: 18rem">
-          <img src="img/forget-it.png" class="card-img-top" alt="..." />
-          <div class="card-body" style="color: white;">
-            <h5 class="card-title">forget it</h5>
-            <p class="card-text">
-                  третий альбом, вышел на всех площадках 01.01.26
-            </p>
-            <a href="#" class="btn btn-outline-light w-100">перейти</a>
-        </div>
-        </div>
-      </ul>
+          <div class="card m-1" style="width: 18rem;">
+                <img src="/catsby.studios/img/catsby-star.png" alt="">
+                <div class="card-body">
+                  <h1 class="card-title" style="color: white;"></h5>
+                  <h4 class="card-title-2" style="color: white;">dancatsby</h5>
+                  <p class="card-text" style="color: white;">
+                       возможная обложка для будущего альбомы
+                  </p>
+                </div>
+          </div>
+          <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                  <h1 style="color: white;" class="card-title">lost data</h5>
+                  <h4 class="card-title-2">dancatsby</h5>
+                  <p class="card-text">
+                      СКОРО РЕЛИЗ | создан в 2024 год
+                  </p>
+                  <audio controls class="audio w-100">
+                    <source src="/catsby.studios/unrealeased/lost data.mp3" type="audio/wav">
+                  </audio>
+                </div>
+          </div>
+          <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                  <h1 style="color: white;" class="card-title">calm tense II</h5>
+                  <h4 class="card-title-2">dancatsby</h5>
+                  <p class="card-text">
+                      СКОРО РЕЛИЗ |
+                      вышел в тг 13 сентября 2025 ↓
+                  </p>
+                  <audio controls class="audio w-100">
+                    <source src="/catsby.studios/unrealeased/bagati_v2.mp3" type="audio/wav">
+                  </audio>
+                </div>
+          </div>
+          <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                  <h1 style="color: white;" class="card-title">oi mama prishla</h5>
+                  <h4 class="card-title-2">dancatsby</h5>
+                  <p class="card-text">
+                      СКОРО РЕЛИЗ |
+                      вышел в тг 23 августа 2025 ↓
+                  </p>
+                  <audio controls class="audio w-100">
+                    <source src="/catsby.studios/unrealeased/bagati_v2.mp3" type="audio/wav">
+                  </audio>
+                </div>
+          </div>
+          <div class="card m-1" style="width: 18rem;">
+                <div class="card-body">
+                  <h1 style="color: white;" class="card-title">unstable</h5>
+                  <h4 class="card-title-2">dancatsby</h5>
+                  <p class="card-text">
+                      СКОРО РЕЛИЗ |
+                      не буду в тг пошли нахуй ↓
+                  </p>
+                  <audio controls class="audio w-100">
+                    <source src="/catsby.studios/unrealeased/Project_63.wav" type="audio/wav">
+                  </audio>
+                </div>
+          </div>
+        </ul>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
